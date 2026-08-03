@@ -32,7 +32,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "https://audience-api.koyeb.app/predict",
+        "http://127.0.0.1:5000/predict",
         {
           ...user,
           Age:Number(user.Age),
